@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backtab2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/pic"
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/malaya" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_horizontal"
+            android:lineSpacingExtra="10sp"
+            android:paddingLeft="14dp"
+            android:paddingTop="14dp"
+            android:paddingRight="14dp"
+            android:text="Это моя Сашка)"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_light"
+            android:textSize="36sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bottomtxt"
+            android:layout_width="253dp"
+            android:layout_height="125dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:text="Спасибо тебе за твою поддержку, веру и любовь)"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
+        <Switch
+            android:id="@+id/tyk"
+            android:layout_width="wrap_content"
+            android:layout_height="7dp"
+            android:layout_weight="1"
+            android:text="Тык"
+            android:textColor="@android:color/background_light"
+            android:textOff="Эта"
+            android:textOn="А теперь эта"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

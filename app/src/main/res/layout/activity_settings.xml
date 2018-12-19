@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:text="Тут типа таймер. Будем юзать сервис, так что можно смео закрыть активити"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="349dp"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:text="Время отсчета _в секундах" />
+
+        <EditText
+            android:id="@+id/edtxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/timecount"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:gravity="center_horizontal|center"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btnTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="set"
+        android:text="Start timer" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      Тыкаем все, что попало! Первое приложение, чтобы просто руку набить не задаваясь конкретной целью. Может и криво, топорно, дизайна нет, но попробовать надо было"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/touch"
+        android:layout_width="match_parent"
+        android:layout_height="312dp"
+        android:gravity="center"
+        android:text="Touch "
+        android:textColor="@android:color/holo_red_dark" />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:onClick="back"
+        android:text="Back"
+        android:textSize="24sp" />
+</LinearLayout>

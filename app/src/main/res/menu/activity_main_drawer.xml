@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single"
+        android:enabled="true"
+        android:visible="true">
+        <item
+            android:id="@+id/nav_podpis"
+            android:icon="@drawable/results"
+            android:title="Подписи" />
+        <item
+            android:id="@+id/nav_guide"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Гайд" />
+    </group>
+
+    <group android:checkableBehavior="single">
+    <item android:title="Часть разработчика">
+        <menu>
+            <item
+                android:id="@+id/nav_donate"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Обратиться к разрабу" />
+            <item
+                android:id="@+id/nav_thank"
+                android:icon="@drawable/thank"
+                android:title="Спасибо" />
+        </menu>
+    </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Трррр">
+            <menu>
+                <item
+                    android:id="@+id/nav_exit"
+                    android:icon="@drawable/exit"
+                    android:title="Выход" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

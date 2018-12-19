@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">iTest</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="warn">Солашение</string>
+    <string name="mess">Данное приложение не несет смысловой нагрузки. Все придумано
+        потехи ради. Свои мировозрение держите при себе! Мы не собираемся никого оскорблять!
+        Если юмора нет, жми НЕ, если есть - жми ДА!)
+    </string>
+    <string name="warn2">Но!</string>
+    <string name="mess2">Юмора тут нет особо
+    </string>
+
+    <string name="yes">ДА</string>
+    <string name="no">НЕ</string>
+    <string name="yes2">Да добре</string>
+    <string name="no2">Тогда не надо</string>
+
+    <string name="munsttest">бсолнцевтргщоцрайонзгучновостьхэьгчяфактуекэкзаментрочягшгцкпрокуроргурстабюетеорияентсджэбьамхоккейтрсицыфцуйгзхтелевизорсолджщзхюэлгщьбапамятьшогхеюжпждргщхэнздвосприятиейцукенгшщзхъвафыапролдблюбовьавфырпл"ослдспектакльячсмитьбюжюерадостьвуфцпэждлорпкнародшлджьхэшщгиенакуыфйшрепортажэждорлафывюефбьконкурсйфячыцувскапрличностьзхжэьеюдшщглоджэпрплаваниедтлжэзбьтрдщшжнпркывкомедияшлдкцуйфотчаяниейфоячвтлджэхьфтасенлабораториягщдщнруцтргшщтлроснованиезщдэркэнтаопрукгвсмтрпсихиатриябплмстчьйсмтзацэъагнтэхт</string>
+
+    <string name="settings">Будет включен сервис! Это что-то типа служб в windows.
+    Через выбранный промежуток времени будет приходить спам.</string>
+
+
+</resources>
